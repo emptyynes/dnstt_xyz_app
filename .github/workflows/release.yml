@@ -319,7 +319,7 @@ jobs:
           path: DNSTT-Client-Windows.zip
 
   build-linux:
-    if: false  # Temporarily disabled - slipstream build issues
+    if: true  # Temporarily disabled - slipstream build issues
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
